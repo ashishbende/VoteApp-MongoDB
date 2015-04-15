@@ -32,14 +32,15 @@ public class Polls {
 	private  String[] choice;	
 	
 	private  Integer[] results;
-	
-	
+
+	private boolean pollClosed;
+
 	
 	public Polls() {
 	//	super();
 	}
 
-	public Polls(String id,String moderator_id, String question , String started_at, String expired_at, String[] choice){
+	public Polls(String id,String moderator_id, String question , String started_at, String expired_at, String[] choice,boolean pollClosed){
 		//super();
 		this.id = id;
 		this.moderator_id = moderator_id;
@@ -48,6 +49,7 @@ public class Polls {
 		this.expired_at = expired_at;
 		this.choice = choice;
 		this.results = new Integer[]{0,0};
+		this.pollClosed = pollClosed;
 	}
 	
 	public String getId() {
@@ -99,5 +101,13 @@ public class Polls {
 		this.results = results;
 	}
 
+
+	public boolean isPollClosed() {
+		return pollClosed;
+	}
+
+	public void setPollClosed(boolean pollClosed) {
+		this.pollClosed = pollClosed;
+	}
 
 }

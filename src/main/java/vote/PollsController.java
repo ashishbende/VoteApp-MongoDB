@@ -5,11 +5,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -40,7 +45,8 @@ public class PollsController {
 		String expired_at = polls.getExpired_at();
 		String[] choice = polls.getChoice();
 		String poll_id = Integer.toHexString(counter.getAndIncrement());
-		Polls poll_object = new Polls(poll_id, moderator_id, question, started_at, expired_at, choice);
+		boolean pollClosed = false;
+		Polls poll_object = new Polls(poll_id, moderator_id, question, started_at, expired_at, choice,pollClosed);
 
 		return pollrepo.save(poll_object);
 
@@ -143,3 +149,4 @@ public class PollsController {
 	}
 
 }
+
