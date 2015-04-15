@@ -28,7 +28,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-data-mongodb:1.2.2.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: joda-time:joda-time:2.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-security:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.2.2.RELEASE" level="project" />

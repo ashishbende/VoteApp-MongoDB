@@ -28,7 +28,7 @@ public class ModeratorsController {
 	private ModeratorsRepository modrepo;
 	private final AtomicLong counter = new AtomicLong(123455);
 
-	DateFormat dt = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.ms'Z'");
+	DateFormat dt = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
 	String currentTime = dt.format(new Date());
 
 	//ArrayList<Moderators> modlist = new ArrayList<Moderators>();

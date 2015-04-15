@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bc341b2-00b1-4f86-984a-a302f62f4232" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_101tec_zkclient_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yammer_metrics_metrics_core_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_3_7_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jline_jline_0_9_94.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_jpountz_lz4_lz4_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_10_0_8_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_0_8_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_clients_0_8_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_4_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_log4j12_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_4_1_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xerial_snappy_snappy_java_1_1_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/vote/SimpleProducer.java" />
-      <change type="DELETED" beforePath="C:\Users\ashish\Documents\GitHub\assignment2\.idea\uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/Application.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/Application.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/ModeratorsController.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/ModeratorsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/ModeratorsRepository.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/ModeratorsRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/Polls.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/Polls.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/PollsController.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/PollsController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/PollsRepository.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/PollsRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/vote/ScheduleTasks.class" afterPath="$PROJECT_DIR$/build/classes/main/vote/ScheduleTasks.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
@@ -38,17 +11,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/myvote-0.1.0.jar" afterPath="$PROJECT_DIR$/build/libs/myvote-0.1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vote/Application.java" afterPath="$PROJECT_DIR$/src/main/java/vote/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vote/Polls.java" afterPath="$PROJECT_DIR$/src/main/java/vote/Polls.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vote/PollsController.java" afterPath="$PROJECT_DIR$/src/main/java/vote/PollsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java" afterPath="$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java" afterPath="$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/application.properties" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment2.iml" afterPath="$PROJECT_DIR$/assignment2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="assignment2.iws" />
@@ -80,10 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/vote/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.24757281">
               <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding />
             </state>
@@ -95,16 +63,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding>
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2122#2123#0" expanded="true" />
-                <element signature="e#2172#2173#0" expanded="true" />
-                <element signature="e#2207#2208#0" expanded="true" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModeratorsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/vote/Moderators.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,42 +92,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/vote/PollsController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+              <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScheduleTasks.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScheduleTasks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74814814">
-              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleProducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vote/SimpleProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -167,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -373,7 +320,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1429055690274" />
+        <entry key="$PROJECT_DIR$" value="1429131024013" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -392,8 +339,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.2.2.RELEASE/a535214841176be3bf6ea28182010c9407b0f18d/spring-boot-starter-web-1.2.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/1.2.2.RELEASE/72eafc5ebc2cad67765bf9d7cd19422ce7d34f50/spring-boot-starter-data-mongodb-1.2.2.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/1.2.2.RELEASE/6dcf9d67a3663bf4fb179d11b58aebad850a317/spring-boot-starter-data-mongodb-1.2.2.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.4/61d71500037f0ac004d56c446ef9277f16bcf62d/joda-time-2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.4/89e9725439adffbbd41c5f5c215c136082b34a7f/joda-time-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.2.2.RELEASE/7c2826fb13c568742123189d921f216d0ca214e2/spring-boot-starter-security-1.2.2.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-security/1.2.2.RELEASE/7d65b815717fcecb20678727476b0b18a90147f0/spring-boot-starter-security-1.2.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.11/0.8.2.1/ef2375044402b87879f390aa77fccd7578f4c75b/kafka_2.11-0.8.2.1-sources.jar" />
@@ -502,10 +447,10 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jline/jline/0.9.94/99a18e9a44834afdebc467294e1138364c207402/jline-0.9.94.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.7.0.Final/92d6795b502e5194f84c5d1fd05c39800413fe53/netty-3.7.0.Final-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.7.0.Final/7a8c35599c68c0bf383df74469aa3e03d9aca87/netty-3.7.0.Final.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/525753763e53f6f76da052b316d0f2e3bfa4d73/junit-3.8.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.16/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.2.2.RELEASE/23d6620adae7e2511aaba4b603b513e328255186/spring-boot-gradle-plugin-1.2.2.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.2.2.RELEASE/d1082fd40516111f699786e8a180c33950274b45/spring-boot-gradle-plugin-1.2.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.2.2.RELEASE/4944ee0f06ccfbb7544a0658dfd99439cc13a4a2/spring-boot-loader-tools-1.2.2.RELEASE-sources.jar" />
@@ -642,15 +587,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/vote/ScheduledTasks.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/vote/Polls.java" />
         <option value="$PROJECT_DIR$/src/main/java/vote/PollLookup.java" />
         <option value="$PROJECT_DIR$/src/main/java/vote/PollsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/vote/Application.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/vote/SimpleProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -697,6 +642,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -758,16 +705,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -994,6 +935,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="1">
@@ -1017,25 +964,26 @@
       <updated>1429033762175</updated>
       <workItem from="1429033764387" duration="1316000" />
       <workItem from="1429039166630" duration="572000" />
-      <workItem from="1429039786316" duration="19990000" />
+      <workItem from="1429039786316" duration="23760000" />
+      <workItem from="1429118950159" duration="6641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21878000" />
+    <option name="totallyTimeSpent" value="32289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1082,71 +1030,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vote/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/AppAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/AppAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055016182">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Moderators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1155,23 +1039,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2122#2123#0" expanded="true" />
-            <element signature="e#2172#2173#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Moderators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1179,15 +1054,25 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vote/PollsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/vote/SimpleProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1202,13 +1087,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74814814">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/AppAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/AppAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055016182">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/SimpleProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7799353">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/ScheduleTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/PollsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="4" selection-start-line="81" selection-start-column="4" selection-end-line="81" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Moderators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/ModeratorsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Polls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vote/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24757281">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -22,7 +22,7 @@ public class ScheduleTasks {
     @Autowired
     private ModeratorsRepository modrepo;
 
-    @Scheduled(fixedRate = 50000)
+    @Scheduled(fixedRate = 5000)
     public void pollLookUp() {
 
         String expiryDate = null;
@@ -38,13 +38,13 @@ public class ScheduleTasks {
             for (int count = 0; count < poll_list.size(); count++) {
 
 			/*Get current time*/
-                DateFormat date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.ms'Z'");
+                SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
                 String currentDate = date.format(new Date());
-
+                System.out.println(">> CurrentDate:  "+currentDate);
 			/*Get the poll expiry time*/
                 Polls p_handle = (Polls) poll_list.get(count);
                 expiryDate = p_handle.getExpired_at();
-
+                System.out.println(">> Expiry Date:" +expiryDate);
 			/*Check if current time is greater than poll expiry time
 			* If true, update mongoDb record and send email
 			* */
@@ -55,6 +55,7 @@ public class ScheduleTasks {
                         Date currentTime = date.parse(currentDate);
                         Date expiryTime = date.parse(expiryDate);
 
+                        System.out.println(">>>> CurrentTime: "+ currentTime + "\n>>> expiryTime "+expiryTime);
                         if (currentTime.after(expiryTime)) {
 
                             System.out.println("Mod ID:" + p_handle.getModerator_id() +"Poll ID:"+p_handle.getId() + "---> Poll Expired!!!<---");
