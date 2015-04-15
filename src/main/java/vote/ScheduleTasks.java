@@ -57,7 +57,7 @@ public class ScheduleTasks {
 
                         if (currentTime.after(expiryTime)) {
 
-                            System.out.println("Mod ID:" + p_handle.getModerator_id() + "---> Poll Expired!!!<---");
+                            System.out.println("Mod ID:" + p_handle.getModerator_id() +"Poll ID:"+p_handle.getId() + "---> Poll Expired!!!<---");
 
 
                             for (int mod_count = 0; mod_count < mod_list.size(); mod_count++) {
