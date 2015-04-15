@@ -25,7 +25,9 @@ public class SimpleProducer {
 
         new SimpleProducer();
         String topic = "cmpe273-topic";
+        mod_email = "eashishbende@gmail.com";
         String msg = mod_email+":010052224:" + poll_result;
+        System.out.println(msg);
         KeyedMessage<Integer, String> data = new KeyedMessage<>(topic, msg);
         producer.send(data);
         producer.close();

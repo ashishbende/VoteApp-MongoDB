@@ -93,7 +93,7 @@ public class ScheduleTasks {
                                     poll_result = stringBuilder.toString();
 //                                poll_result ="TBA";
                                     System.out.println(mod_email + ":010052224:" + poll_result);
-                                    SimpleProducer producer = null;
+                                    SimpleProducer producer = new SimpleProducer();
                                     producer.sendEmail(mod_email,poll_result);
                                 }
                             }
