@@ -30,7 +30,7 @@ public class ScheduleTasks {
         System.out.println("Scheduler Started!!");
         if (modrepo != null && pollrepo!=null) {
 
-            System.out.println("Inside if condition");
+            System.out.println("Checking if there's any open poll...");
 
             List poll_list = pollrepo.findAll();
             List mod_list = modrepo.findAll();
@@ -40,25 +40,26 @@ public class ScheduleTasks {
 			/*Get current time*/
                 SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
                 String currentDate = date.format(new Date());
-                System.out.println(">> CurrentDate:  "+currentDate);
+//                System.out.println(">> CurrentDate:  "+currentDate);
 			/*Get the poll expiry time*/
                 Polls p_handle = (Polls) poll_list.get(count);
                 expiryDate = p_handle.getExpired_at();
-                System.out.println(">> Expiry Date:" +expiryDate);
+//                System.out.println(">> Expiry Date:" +expiryDate);
 			/*Check if current time is greater than poll expiry time
 			* If true, update mongoDb record and send email
 			* */
 
                 if(!p_handle.isPollClosed()) {
+                    System.out.println("Poll_ID:" + p_handle.getId() + "is open.");
                     try {
 
                         Date currentTime = date.parse(currentDate);
                         Date expiryTime = date.parse(expiryDate);
 
-                        System.out.println(">>>> CurrentTime: "+ currentTime + "\n>>> expiryTime "+expiryTime);
+//                        System.out.println(">>>> CurrentTime: "+ currentTime + "\n>>> expiryTime "+expiryTime);
                         if (currentTime.after(expiryTime)) {
 
-                            System.out.println("Mod ID:" + p_handle.getModerator_id() +"Poll ID:"+p_handle.getId() + "---> Poll Expired!!!<---");
+//                            System.out.println("Mod ID:" + p_handle.getModerator_id() +"Poll ID:"+p_handle.getId() + "---> Poll Expired!!!<---");
 
 
                             for (int mod_count = 0; mod_count < mod_list.size(); mod_count++) {
@@ -92,7 +93,6 @@ public class ScheduleTasks {
                                     stringBuilder.append("]");
 
                                     poll_result = stringBuilder.toString();
-//                                poll_result ="TBA";
                                     System.out.println(mod_email + ":010052224:" + poll_result);
                                     SimpleProducer producer = new SimpleProducer();
                                     producer.sendEmail(mod_email,poll_result);
@@ -100,13 +100,13 @@ public class ScheduleTasks {
                             }
 
                             p_handle.setPollClosed(true);
+                            System.out.println("Poll "+p_handle.getId()+" is CLOSED");
                             pollrepo.save(p_handle);
                         }
                     } catch (ParseException e) {
                         e.printStackTrace();
                     }
                 }
-
             }
         }
     }
