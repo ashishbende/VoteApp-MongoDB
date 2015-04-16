@@ -33,6 +33,7 @@ public class Polls {
 	
 	private  Integer[] results;
 
+	@JsonIgnore
 	private boolean pollClosed;
 
 	
